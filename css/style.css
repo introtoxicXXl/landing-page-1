@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+.btn-primary {
+  border-radius: 5px;
+  background: rgba(241, 91, 34, 1);
+  padding: 20px 25px;
+  border: 0;
+  color: #fff;
+  transition: 0.2s all ease;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: rgba(241, 91, 34, 1);
+  border: 1px solid rgba(241, 91, 34, 1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 header {
   background-image: url(/img/banner1.png);
   background-size: cover;
@@ -34,16 +50,46 @@ header {
   line-height: 26px;
   margin-bottom: 20px;
 }
-.btn-primary {
-  border-radius: 5px;
-  background: rgba(241, 91, 34, 1);
-  padding: 20px 25px;
-  border: 0;
-  color: #fff;
-  transition: 0.2s all ease;
-  cursor: pointer;
+
+.failures-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  padding: 0 100px;
 }
-.btn-primary:hover{
-    background-color: rgb(182, 60, 11);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.failure-left {
+  flex-basis: 50%;
+}
+.failure-left img {
+  width: 60%;
+  display: inline-block;
+  margin: 0 auto;
+}
+.failure-right {
+  flex-basis: 50%;
+}
+.failure-right h3 {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.failure-right p {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.failure-right li{
+    text-decoration: none;
+    list-style: none;
+}
+.failure-right li::before{
+    content: '✔ ';
+    color: rgba(22, 216, 135, 1);
 }
