@@ -85,11 +85,46 @@ header {
   line-height: 26px;
   margin-bottom: 10px;
 }
-.failure-right li{
-    text-decoration: none;
-    list-style: none;
+.failure-right li {
+  text-decoration: none;
+  list-style: none;
 }
-.failure-right li::before{
-    content: '✔ ';
-    color: rgba(22, 216, 135, 1);
+.failure-right li::before {
+  content: "✔ ";
+  color: rgba(22, 216, 135, 1);
+}
+.plan-section {
+  padding: 0 100px;
+  overflow: hidden;
+}
+.plan-section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+}
+.plan {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.plan-box img {
+  display: block;
+  margin: 0 auto;
+}
+.plan-box h4 {
+  color: #151414;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+.plan-box p {
+  color: #737272;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
 }
