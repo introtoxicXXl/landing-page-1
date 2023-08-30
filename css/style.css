@@ -7,11 +7,12 @@
 .btn-primary {
   border-radius: 5px;
   background: rgba(241, 91, 34, 1);
-  padding: 20px 25px;
+  padding: 15px 25px;
   border: 0;
   color: #fff;
   transition: 0.2s all ease;
   cursor: pointer;
+  margin-top: 10px;
 }
 .btn-primary:hover {
   background-color: #fff;
@@ -138,9 +139,72 @@ header {
 .positive-text {
   border-radius: 8px;
   height: 100%;
-  background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url(/img/watch.png);
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url(/img/watch.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  padding: 50px 60px;
+}
+.positive-text h1 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.btn {
+  border-radius: 5px;
+  padding: 15px 30px;
+  background-color: #fff;
+  color: rgba(241, 91, 34, 1);
+  border: 0;
+  transition: 0.2s all ease;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: rgba(241, 91, 34, 1);
+  color: #fff;
+  border: 1px solid #000;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  background-color: #000000;
+  height: 300px;
+}
+
+.h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-left {
+  flex-basis: 50%;
+}
+.footer-right {
+  flex-basis: 40%;
+}
+.footer-left p {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+.email {
+  border-radius: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  background-color: #000000;
+  display: block;
+}
+.social img{
+    cursor: pointer;
+    margin-right: 10px;
 }
